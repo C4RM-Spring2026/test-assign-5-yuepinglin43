@@ -1,4 +1,4 @@
-import numpy as n
+import numpy as np
 def getBondPrice(y, face, couponRate, m, ppy=1):
     n = m * ppy
     coupon = face * couponRate / ppy
